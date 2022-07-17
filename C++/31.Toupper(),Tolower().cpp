@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+
+{
+
+  char c;
+  cout<<"Please Enter a Character:";
+  cin>>c;
+
+   c=toupper(c);
+   
+  if(c=='A'|| c=='E' || c=='I' || c=='O' || c=='U')
+
+{
+
+	cout<<"Vowel";
+}
+
+  else
+
+	cout<<"Consonent";
+
+}
+
+
+
+
